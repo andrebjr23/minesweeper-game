@@ -10,16 +10,16 @@ public class MinesweeperGame extends JFrame {
     private ImageIcon[] iconArray = new ImageIcon[] { null, one, two, three, four, five, six, seven, eight };
     private static boolean firstClick = true;
     private static boolean startGame = true;
-    private static final ImageIcon one = new ImageIcon("one.png");
-    private static final ImageIcon two = new ImageIcon("two.png");
-    private static final ImageIcon three = new ImageIcon("three.png");
-    private static final ImageIcon four = new ImageIcon("four.png");
-    private static final ImageIcon five = new ImageIcon("five.png");
-    private static final ImageIcon six = new ImageIcon("six.png");
-    private static final ImageIcon seven = new ImageIcon("seven.png");
-    private static final ImageIcon eight = new ImageIcon("eight.png");
-    private static final ImageIcon flag = new ImageIcon("flag.png");
-    private static final ImageIcon mine = new ImageIcon("mine.png");
+    private static final ImageIcon one = new ImageIcon("assets/one.png");
+    private static final ImageIcon two = new ImageIcon("assets/two.png");
+    private static final ImageIcon three = new ImageIcon("assets/three.png");
+    private static final ImageIcon four = new ImageIcon("assets/four.png");
+    private static final ImageIcon five = new ImageIcon("assets/five.png");
+    private static final ImageIcon six = new ImageIcon("assets/six.png");
+    private static final ImageIcon seven = new ImageIcon("assets/seven.png");
+    private static final ImageIcon eight = new ImageIcon("assets/eight.png");
+    private static final ImageIcon flag = new ImageIcon("assets/flag.png");
+    private static final ImageIcon mine = new ImageIcon("assets/mine.png");
     private static MineButton[][] buttons;
 
     public MinesweeperGame(){
